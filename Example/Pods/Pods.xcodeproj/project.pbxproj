@@ -11,16 +11,16 @@
 		42D75B7E21C99BE7931EE7C064048D25 /* Pods-PVDSwiftAddOns_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 661445B7ECDB3602D1F92EC3B2247D4D /* Pods-PVDSwiftAddOns_Tests-dummy.m */; };
 		68FB94DC5A9A3ACD482CC97E92950F10 /* PVDSwiftAddOns-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57024BD4DC0E09389FBC05652931A879 /* PVDSwiftAddOns-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0785706BD00A1DAEB64ADEAEFC2396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		94CDC36E1F78F7260046FCB1 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC36C1F78F7260046FCB1 /* CommonUtils.swift */; };
-		94CDC36F1F78F7260046FCB1 /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC36D1F78F7260046FCB1 /* DeviceUtils.swift */; };
-		94CDC3781F78F72D0046FCB1 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3701F78F72C0046FCB1 /* UIFontExtension.swift */; };
-		94CDC3791F78F72D0046FCB1 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3711F78F72C0046FCB1 /* CLLocationCoordinate2DExtension.swift */; };
-		94CDC37A1F78F72D0046FCB1 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3721F78F72C0046FCB1 /* CommonExtensions.swift */; };
-		94CDC37B1F78F72D0046FCB1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3731F78F72C0046FCB1 /* StringExtension.swift */; };
-		94CDC37C1F78F72D0046FCB1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3741F78F72C0046FCB1 /* UIViewExtension.swift */; };
-		94CDC37D1F78F72D0046FCB1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3751F78F72C0046FCB1 /* UIColorExtension.swift */; };
-		94CDC37E1F78F72D0046FCB1 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3761F78F72C0046FCB1 /* UINavigationControllerExtension.swift */; };
-		94CDC37F1F78F72D0046FCB1 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3771F78F72D0046FCB1 /* DateExtension.swift */; };
+		94CDC3961F7907B60046FCB1 /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3941F7907B60046FCB1 /* DeviceUtils.swift */; };
+		94CDC3971F7907B60046FCB1 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3951F7907B60046FCB1 /* CommonUtils.swift */; };
+		94CDC3A01F7907C10046FCB1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3981F7907C10046FCB1 /* StringExtension.swift */; };
+		94CDC3A11F7907C10046FCB1 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3991F7907C10046FCB1 /* DateExtension.swift */; };
+		94CDC3A21F7907C10046FCB1 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39A1F7907C10046FCB1 /* CLLocationCoordinate2DExtension.swift */; };
+		94CDC3A31F7907C10046FCB1 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39B1F7907C10046FCB1 /* UINavigationControllerExtension.swift */; };
+		94CDC3A41F7907C10046FCB1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39C1F7907C10046FCB1 /* UIColorExtension.swift */; };
+		94CDC3A51F7907C10046FCB1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39D1F7907C10046FCB1 /* UIViewExtension.swift */; };
+		94CDC3A61F7907C10046FCB1 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39E1F7907C10046FCB1 /* CommonExtensions.swift */; };
+		94CDC3A71F7907C10046FCB1 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC39F1F7907C10046FCB1 /* UIFontExtension.swift */; };
 		A9C1ABCAB94E336806C797A692E52192 /* PVDSwiftAddOns-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C9080E76DADD6DB119C29306A8CC71 /* PVDSwiftAddOns-dummy.m */; };
 		B24FF1C20563742B63CFE661921577C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -48,16 +48,16 @@
 		7B8919E8FE3D5187161D66C350005E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94CDC36C1F78F7260046FCB1 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
-		94CDC36D1F78F7260046FCB1 /* DeviceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
-		94CDC3701F78F72C0046FCB1 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
-		94CDC3711F78F72C0046FCB1 /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
-		94CDC3721F78F72C0046FCB1 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
-		94CDC3731F78F72C0046FCB1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		94CDC3741F78F72C0046FCB1 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		94CDC3751F78F72C0046FCB1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		94CDC3761F78F72C0046FCB1 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
-		94CDC3771F78F72D0046FCB1 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		94CDC3941F7907B60046FCB1 /* DeviceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceUtils.swift; path = ../PVDSwiftAddOns/Classes/Utils/DeviceUtils.swift; sourceTree = "<group>"; };
+		94CDC3951F7907B60046FCB1 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonUtils.swift; path = ../PVDSwiftAddOns/Classes/Utils/CommonUtils.swift; sourceTree = "<group>"; };
+		94CDC3981F7907C10046FCB1 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/StringExtension.swift; sourceTree = "<group>"; };
+		94CDC3991F7907C10046FCB1 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/DateExtension.swift; sourceTree = "<group>"; };
+		94CDC39A1F7907C10046FCB1 /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CLLocationCoordinate2DExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
+		94CDC39B1F7907C10046FCB1 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		94CDC39C1F7907C10046FCB1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
+		94CDC39D1F7907C10046FCB1 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/UIViewExtension.swift; sourceTree = "<group>"; };
+		94CDC39E1F7907C10046FCB1 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonExtensions.swift; path = ../PVDSwiftAddOns/Classes/Extensions/CommonExtensions.swift; sourceTree = "<group>"; };
+		94CDC39F1F7907C10046FCB1 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFontExtension.swift; path = ../PVDSwiftAddOns/Classes/Extensions/UIFontExtension.swift; sourceTree = "<group>"; };
 		972F2977BFDF9AE8BB66B576EDB2AB54 /* PVDSwiftAddOns.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PVDSwiftAddOns.xcconfig; sourceTree = "<group>"; };
 		9932470EC1B031120A50AF71C58DC6A9 /* PVDSwiftAddOns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PVDSwiftAddOns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,14 +135,14 @@
 		94CDC36A1F78F6DE0046FCB1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				94CDC3711F78F72C0046FCB1 /* CLLocationCoordinate2DExtension.swift */,
-				94CDC3721F78F72C0046FCB1 /* CommonExtensions.swift */,
-				94CDC3771F78F72D0046FCB1 /* DateExtension.swift */,
-				94CDC3731F78F72C0046FCB1 /* StringExtension.swift */,
-				94CDC3751F78F72C0046FCB1 /* UIColorExtension.swift */,
-				94CDC3701F78F72C0046FCB1 /* UIFontExtension.swift */,
-				94CDC3761F78F72C0046FCB1 /* UINavigationControllerExtension.swift */,
-				94CDC3741F78F72C0046FCB1 /* UIViewExtension.swift */,
+				94CDC39A1F7907C10046FCB1 /* CLLocationCoordinate2DExtension.swift */,
+				94CDC39E1F7907C10046FCB1 /* CommonExtensions.swift */,
+				94CDC3991F7907C10046FCB1 /* DateExtension.swift */,
+				94CDC3981F7907C10046FCB1 /* StringExtension.swift */,
+				94CDC39C1F7907C10046FCB1 /* UIColorExtension.swift */,
+				94CDC39F1F7907C10046FCB1 /* UIFontExtension.swift */,
+				94CDC39B1F7907C10046FCB1 /* UINavigationControllerExtension.swift */,
+				94CDC39D1F7907C10046FCB1 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 		94CDC36B1F78F6E50046FCB1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				94CDC36C1F78F7260046FCB1 /* CommonUtils.swift */,
-				94CDC36D1F78F7260046FCB1 /* DeviceUtils.swift */,
+				94CDC3951F7907B60046FCB1 /* CommonUtils.swift */,
+				94CDC3941F7907B60046FCB1 /* DeviceUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -309,17 +309,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94CDC36E1F78F7260046FCB1 /* CommonUtils.swift in Sources */,
-				94CDC37B1F78F72D0046FCB1 /* StringExtension.swift in Sources */,
-				94CDC3791F78F72D0046FCB1 /* CLLocationCoordinate2DExtension.swift in Sources */,
-				94CDC36F1F78F7260046FCB1 /* DeviceUtils.swift in Sources */,
-				94CDC3781F78F72D0046FCB1 /* UIFontExtension.swift in Sources */,
-				94CDC37E1F78F72D0046FCB1 /* UINavigationControllerExtension.swift in Sources */,
-				94CDC37F1F78F72D0046FCB1 /* DateExtension.swift in Sources */,
-				94CDC37D1F78F72D0046FCB1 /* UIColorExtension.swift in Sources */,
-				94CDC37A1F78F72D0046FCB1 /* CommonExtensions.swift in Sources */,
-				94CDC37C1F78F72D0046FCB1 /* UIViewExtension.swift in Sources */,
+				94CDC3A61F7907C10046FCB1 /* CommonExtensions.swift in Sources */,
+				94CDC3A31F7907C10046FCB1 /* UINavigationControllerExtension.swift in Sources */,
+				94CDC3A01F7907C10046FCB1 /* StringExtension.swift in Sources */,
+				94CDC3A21F7907C10046FCB1 /* CLLocationCoordinate2DExtension.swift in Sources */,
+				94CDC3A41F7907C10046FCB1 /* UIColorExtension.swift in Sources */,
+				94CDC3A11F7907C10046FCB1 /* DateExtension.swift in Sources */,
 				42D75B7E21C99BE7931EE7C064048D25 /* Pods-PVDSwiftAddOns_Tests-dummy.m in Sources */,
+				94CDC3A51F7907C10046FCB1 /* UIViewExtension.swift in Sources */,
+				94CDC3971F7907B60046FCB1 /* CommonUtils.swift in Sources */,
+				94CDC3961F7907B60046FCB1 /* DeviceUtils.swift in Sources */,
+				94CDC3A71F7907C10046FCB1 /* UIFontExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
