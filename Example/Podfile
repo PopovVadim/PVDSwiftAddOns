@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PVDSwiftAddOns_Tests' do
+  pod 'PVDSwiftAddOns', :path => '../'
+  
+  
+end
