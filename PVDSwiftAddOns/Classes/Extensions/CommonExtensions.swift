@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-extension UIApplication {
+public extension UIApplication {
     class func topVC(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
         
         if let navigationController = controller as? UINavigationController {
@@ -33,7 +33,7 @@ extension UIApplication {
  *
  *
  */
-extension Character {
+public extension Character {
     
     /**
      */
@@ -48,7 +48,7 @@ extension Character {
  *
  *
  */
-extension Double {
+public extension Double {
     
     ///
     var degreesToRadians: Double { return self * .pi / 180 }
@@ -61,7 +61,7 @@ extension Double {
  *
  *
  */
-extension CGFloat {
+public extension CGFloat {
     
     ///
     var degreesToRadians: CGFloat { return self * .pi / 180 }
@@ -74,7 +74,7 @@ extension CGFloat {
  *
  *
  */
-extension Dictionary {
+public extension Dictionary {
     
     /**
      */
@@ -89,7 +89,7 @@ extension Dictionary {
  *
  *
  */
-extension UITextField {
+public extension UITextField {
     
     func pulse (withColor color: UIColor) {
         let initialColor: UIColor = self.textColor!
@@ -107,7 +107,7 @@ extension UITextField {
  *
  *
  */
-extension Int {
+public extension Int {
     
     /**
      */

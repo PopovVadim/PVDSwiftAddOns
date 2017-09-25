@@ -12,7 +12,7 @@ import CoreLocation
  *
  *
  */
-extension CLLocationCoordinate2D {
+public extension CLLocationCoordinate2D {
     
     /**
      */

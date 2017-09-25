@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PVDSwiftAddOns'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Some extensions, utils and add-ons for Swift to simplify SDK usage'
 
 # This description is used to generate tags and improve search results.

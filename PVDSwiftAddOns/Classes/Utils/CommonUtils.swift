@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Arrays and iterations
 
-func iterateEnum<T: Hashable>(_: T.Type) -> AnyIterator<T> {
+public func iterateEnum<T: Hashable>(_: T.Type) -> AnyIterator<T> {
     var i = 0
     return AnyIterator {
         let next = withUnsafeBytes(of: &i) { $0.load(as: T.self) }
@@ -21,7 +21,7 @@ func iterateEnum<T: Hashable>(_: T.Type) -> AnyIterator<T> {
 
 // MARK: - Type casting
 
-func autocast<T>(_ some: Any) -> T? {
+public func autocast<T>(_ some: Any) -> T? {
     return some as? T
 }
 
@@ -31,7 +31,7 @@ func autocast<T>(_ some: Any) -> T? {
  *
  *
  */
-enum ThreadType {
+public enum ThreadType {
     case main
     case background
     
@@ -62,7 +62,7 @@ enum ThreadType {
 
 /**
  */
-func execute (after seconds: Double = 0.0, in thread: ThreadType = .main, completion: (() -> Void)? = nil, _ block: @escaping () -> Void) {
+public func execute (after seconds: Double = 0.0, in thread: ThreadType = .main, completion: (() -> Void)? = nil, _ block: @escaping () -> Void) {
     thread._execute(block, after: seconds, completion: completion)
 }
 
@@ -70,6 +70,6 @@ func execute (after seconds: Double = 0.0, in thread: ThreadType = .main, comple
 
 /**
  */
-func notifyAll(_ name: Notification.Name) {
+public func notifyAll(_ name: Notification.Name) {
     NotificationCenter.default.post(Notification(name: name))
 }

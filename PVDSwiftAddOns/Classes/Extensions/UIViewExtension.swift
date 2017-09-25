@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-enum HoverStyle: Int {
+public enum HoverStyle: Int {
     
     case push = 0
     case shiftRight
@@ -56,7 +56,7 @@ enum HoverStyle: Int {
  *
  *
  */
-extension UIView {
+public extension UIView {
     
     /**
      */

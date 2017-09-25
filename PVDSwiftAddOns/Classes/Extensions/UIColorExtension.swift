@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-extension UIColor {
+public extension UIColor {
     
     /**
      * Initializer

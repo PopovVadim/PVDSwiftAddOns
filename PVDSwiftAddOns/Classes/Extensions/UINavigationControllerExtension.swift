@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-extension UINavigationController {
+public extension UINavigationController {
     
     /**
      */

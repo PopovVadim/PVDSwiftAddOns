@@ -1,6 +1,5 @@
 import UIKit
 import XCTest
-import PVDSwiftAddOns
 
 class Tests: XCTestCase {
     

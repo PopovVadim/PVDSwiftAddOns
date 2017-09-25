@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-class Device {
+public class Device {
     
     ///
     static var id: String {
@@ -40,7 +40,7 @@ class Device {
  *
  *
  */
-enum DeviceModel {
+public enum DeviceModel {
     case iPhone5, iPhone6, iPhonePlus
     
     /**

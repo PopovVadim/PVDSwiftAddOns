@@ -11,7 +11,7 @@ import Foundation
  *
  *
  */
-extension Date {
+public extension Date {
     
     /// Returns the amount of years from another date
     func years(from date: Date) -> Int {
