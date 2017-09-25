@@ -14,39 +14,39 @@ import Foundation
 extension UIFont {
     
     class func systemUltralight(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightUltraLight)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.ultraLight)
     }
     
     class func systemThin(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightThin)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.thin)
     }
     
     class func systemLight(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightLight)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.light)
     }
     
     class func systemRegular(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightRegular)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.regular)
     }
     
     class func systemMedium(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightMedium)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.medium)
     }
     
     class func systemSemibold(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightSemibold)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.semibold)
     }
     
     class func systemBold(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightBold)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.bold)
     }
     
     class func systemHeavy(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightHeavy)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.heavy)
     }
     
     class func systemBlack(_ size: CGFloat) -> UIFont {
-        return UIFont.systemFont(ofSize: size, weight: UIFontWeightBlack)
+        return UIFont.systemFont(ofSize: size, weight: UIFont.Weight.black)
     }
 }
 
