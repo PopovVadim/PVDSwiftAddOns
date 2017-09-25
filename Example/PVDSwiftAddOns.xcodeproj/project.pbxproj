@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A0BCC76E3B4BCE37AEA6A4DF /* Pods_PVDSwiftAddOns_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3183F0715FE7A0F98446C /* Pods_PVDSwiftAddOns_Tests.framework */; };
+		94CDC3871F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3861F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		583CDC75B3C530FD34492ECD /* PVDSwiftAddOns.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PVDSwiftAddOns.podspec; path = ../PVDSwiftAddOns.podspec; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* PVDSwiftAddOns_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVDSwiftAddOns_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		583CDC75B3C530FD34492ECD /* PVDSwiftAddOns.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PVDSwiftAddOns.podspec; path = ../PVDSwiftAddOns.podspec; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7866BADECC75FD71614109B9 /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVDSwiftAddOnsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CDC3861F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVDSwiftAddOnsUnitTests.swift; sourceTree = "<group>"; };
+		94CDC3881F78F7EA0046FCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B194C242620A590FC70D6679 /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVDSwiftAddOns_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CEDCD1C75030D0C4AE31CEE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D387ADDDCA02EDBD245B761B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CEDCD1C75030D0C4AE31CEE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D387ADDDCA02EDBD245B761B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E2D3183F0715FE7A0F98446C /* Pods_PVDSwiftAddOns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVDSwiftAddOns_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		94CDC3811F78F7EA0046FCB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BCC76E3B4BCE37AEA6A4DF /* Pods_PVDSwiftAddOns_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +40,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				94CDC3851F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D506D3664BD84256560FCEBA /* Pods */,
 				D81033C965700778C4E1F33E /* Frameworks */,
@@ -49,7 +50,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACE51AFB9204008FA782 /* PVDSwiftAddOns_Tests.xctest */,
+				94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +82,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		94CDC3851F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				94CDC3861F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift */,
+				94CDC3881F78F7EA0046FCB1 /* Info.plist */,
+			);
+			path = PVDSwiftAddOnsUnitTests;
+			sourceTree = "<group>";
+		};
 		D506D3664BD84256560FCEBA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,24 +111,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACE41AFB9204008FA782 /* PVDSwiftAddOns_Tests */ = {
+		94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns_Tests" */;
+			buildConfigurationList = 94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOnsUnitTests" */;
 			buildPhases = (
-				E8500748500E0C12499653B0 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				89D555061D9C02EE9C7C32F0 /* [CP] Embed Pods Frameworks */,
-				82249ED7DD92E9106A0B99A7 /* [CP] Copy Pods Resources */,
+				94CDC3801F78F7EA0046FCB1 /* Sources */,
+				94CDC3811F78F7EA0046FCB1 /* Frameworks */,
+				94CDC3821F78F7EA0046FCB1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PVDSwiftAddOns_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* PVDSwiftAddOns_Tests.xctest */;
+			name = PVDSwiftAddOnsUnitTests;
+			productName = PVDSwiftAddOnsUnitTests;
+			productReference = 94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -127,18 +134,14 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					94CDC3831F78F7EA0046FCB1 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = 3S4KYJG3GD;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -155,13 +158,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACE41AFB9204008FA782 /* PVDSwiftAddOns_Tests */,
+				94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		94CDC3821F78F7EA0046FCB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,66 +173,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		82249ED7DD92E9106A0B99A7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		89D555061D9C02EE9C7C32F0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PVDSwiftAddOns/PVDSwiftAddOns.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PVDSwiftAddOns.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E8500748500E0C12499653B0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PVDSwiftAddOns_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		94CDC3801F78F7EA0046FCB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				94CDC3871F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -315,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -323,39 +272,61 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		94CDC38A1F78F7EA0046FCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7866BADECC75FD71614109B9 /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3S4KYJG3GD;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PVDSwiftAddOnsUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.popov.PVDSwiftAddOnsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		94CDC38B1F78F7EA0046FCB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B194C242620A590FC70D6679 /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S4KYJG3GD;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PVDSwiftAddOnsUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.popov.PVDSwiftAddOnsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -371,11 +342,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns_Tests" */ = {
+		94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOnsUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				94CDC38A1F78F7EA0046FCB1 /* Debug */,
+				94CDC38B1F78F7EA0046FCB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
