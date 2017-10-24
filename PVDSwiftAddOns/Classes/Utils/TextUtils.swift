@@ -10,13 +10,13 @@ import UIKit
 
 /**
  */
-class TextDescriptor {
-    var color: UIColor
-    var font: UIFont
-    var alignment: NSTextAlignment
-    var numberOfLines: Int
+open class TextDescriptor {
+    open var color: UIColor
+    open var font: UIFont
+    open var alignment: NSTextAlignment
+    open var numberOfLines: Int
     
-    init(_ color: UIColor, _ font: UIFont, _ alignment: NSTextAlignment, _ numberOfLines: Int = 0) {
+    public init(_ color: UIColor, _ font: UIFont, _ alignment: NSTextAlignment, _ numberOfLines: Int = 0) {
         self.color = color
         self.font = font
         self.alignment = alignment
@@ -26,6 +26,6 @@ class TextDescriptor {
 
 /**
  */
-protocol TextDescriptorApplicable {
+public protocol TextDescriptorApplicable {
     func apply (_ textDescriptor: TextDescriptor)
 }

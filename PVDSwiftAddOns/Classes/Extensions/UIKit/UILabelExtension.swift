@@ -29,7 +29,7 @@ public extension UILabel {
     
     /**
      */
-    internal func apply (_ textDescriptor: TextDescriptor) {
+    func apply (_ textDescriptor: TextDescriptor) {
         self.textColor = textDescriptor.color
         self.textAlignment = textDescriptor.alignment
         self.font = textDescriptor.font

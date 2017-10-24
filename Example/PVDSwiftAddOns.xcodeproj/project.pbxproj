@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6BD2A1F119E3440F97CFB0 /* Pods_PVDSwiftAddOns_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3183F0715FE7A0F98446C /* Pods_PVDSwiftAddOns_Tests.framework */; };
 		94CDC3871F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDC3861F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -15,7 +16,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7866BADECC75FD71614109B9 /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVDSwiftAddOnsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOns_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVDSwiftAddOns_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CDC3861F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVDSwiftAddOnsUnitTests.swift; sourceTree = "<group>"; };
 		94CDC3881F78F7EA0046FCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B194C242620A590FC70D6679 /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PVDSwiftAddOns_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6BD2A1F119E3440F97CFB0 /* Pods_PVDSwiftAddOns_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +52,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */,
+				94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOns_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,21 +113,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */ = {
+		94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOns_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOnsUnitTests" */;
+			buildConfigurationList = 94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns_Tests" */;
 			buildPhases = (
+				077AA73DA395ECA4C5DED086 /* [CP] Check Pods Manifest.lock */,
 				94CDC3801F78F7EA0046FCB1 /* Sources */,
 				94CDC3811F78F7EA0046FCB1 /* Frameworks */,
 				94CDC3821F78F7EA0046FCB1 /* Resources */,
+				4D8FE1F6DC1C79463A11C541 /* [CP] Embed Pods Frameworks */,
+				7297C10D14FB480B9281537D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PVDSwiftAddOnsUnitTests;
+			name = PVDSwiftAddOns_Tests;
 			productName = PVDSwiftAddOnsUnitTests;
-			productReference = 94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests.xctest */;
+			productReference = 94CDC3841F78F7EA0046FCB1 /* PVDSwiftAddOns_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOnsUnitTests */,
+				94CDC3831F78F7EA0046FCB1 /* PVDSwiftAddOns_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +177,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		077AA73DA395ECA4C5DED086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PVDSwiftAddOns_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8FE1F6DC1C79463A11C541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PVDSwiftAddOns/PVDSwiftAddOns.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PVDSwiftAddOns.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7297C10D14FB480B9281537D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94CDC3801F78F7EA0046FCB1 /* Sources */ = {
@@ -276,6 +335,7 @@
 		};
 		94CDC38A1F78F7EA0046FCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7866BADECC75FD71614109B9 /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -306,6 +366,7 @@
 		};
 		94CDC38B1F78F7EA0046FCB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B194C242620A590FC70D6679 /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -344,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOnsUnitTests" */ = {
+		94CDC3891F78F7EA0046FCB1 /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94CDC38A1F78F7EA0046FCB1 /* Debug */,

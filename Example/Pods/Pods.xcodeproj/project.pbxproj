@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0B0C5ABAD76C03660609C212EABDAE09 /* Pods-PVDSwiftAddOns_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14526B4F3B5A6396364BBD39D34AFDEB /* Pods-PVDSwiftAddOns_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F45B4DAFF74ADB3702EA04CF42A1AFB /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C12366177307F09B14DFD94F3DCC23 /* UIFontExtension.swift */; };
+		1024F4991277E1C46A118545365C0993 /* PVDSwiftAddOns-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B1E0A2E5F9531D982B3FAFA2555A8 /* PVDSwiftAddOns-dummy.m */; };
+		1A8B0ECC3B14C79D88DF5D96064F5C24 /* NumericTypesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F40630096B02764CD6DB6DC843C7A1 /* NumericTypesExtension.swift */; };
+		2387B905A6A507468F91822E644C5205 /* StringAndCharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8CD4838AC06C50FD2914F755B8F5 /* StringAndCharacterExtension.swift */; };
+		294232A22B473A150792854D0D801992 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D2AB12DD8AF481E2ABDA15EF24619 /* UIColorExtension.swift */; };
+		358B3630DC6A1CAD31A74B06E2228EFE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6973DBCABC13BC04F438A7E6DCCCF /* UIImageExtension.swift */; };
+		38A784FCFC3BE8A2ED6DF78D0B919292 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9A6956A88982ECBD8BDE9A2792345 /* UIApplicationExtension.swift */; };
 		42D75B7E21C99BE7931EE7C064048D25 /* Pods-PVDSwiftAddOns_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 661445B7ECDB3602D1F92EC3B2247D4D /* Pods-PVDSwiftAddOns_Tests-dummy.m */; };
-		68FB94DC5A9A3ACD482CC97E92950F10 /* PVDSwiftAddOns-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57024BD4DC0E09389FBC05652931A879 /* PVDSwiftAddOns-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45364F317BF8297CB15AE5469BB0CBF9 /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B102049F56D92CFCA0396E3F1A1C3BA /* DeviceUtils.swift */; };
+		46E7839B97FD0AE523548C721D708B56 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1B49AB8824C28CCF40C7A7B12BD9C /* DateExtension.swift */; };
+		66DC92ABADFB6BC84C884BC1BCD2C226 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0D57280BB23AFAF22D5D21DF8BEE2B /* Operators.swift */; };
+		68FB94DC5A9A3ACD482CC97E92950F10 /* PVDSwiftAddOns-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7CC0BD92B7BECD2CB6DF2220ABE6A2 /* PVDSwiftAddOns-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB5DB364FDB4A619814F17A4DAC26AF /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */; };
 		8F0785706BD00A1DAEB64ADEAEFC2396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9467C22F1F79204600E75ED9 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C2241F79204600E75ED9 /* CLLocationCoordinate2DExtension.swift */; };
-		9467C2311F79204600E75ED9 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C2261F79204600E75ED9 /* DateExtension.swift */; };
-		9467C2321F79204600E75ED9 /* StringAndCharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C2271F79204600E75ED9 /* StringAndCharacterExtension.swift */; };
-		9467C2331F79204600E75ED9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C2281F79204600E75ED9 /* UIColorExtension.swift */; };
-		9467C2341F79204600E75ED9 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C2291F79204600E75ED9 /* UIFontExtension.swift */; };
-		9467C2351F79204600E75ED9 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C22A1F79204600E75ED9 /* UINavigationControllerExtension.swift */; };
-		9467C2361F79204600E75ED9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C22B1F79204600E75ED9 /* UIViewExtension.swift */; };
-		9467C2371F79204600E75ED9 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C22D1F79204600E75ED9 /* CommonUtils.swift */; };
-		9467C2381F79204600E75ED9 /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9467C22E1F79204600E75ED9 /* DeviceUtils.swift */; };
-		94DD93CA1F9EF486006E7EF6 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93C91F9EF486006E7EF6 /* Operators.swift */; };
-		94DD93CD1F9EF66C006E7EF6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93CC1F9EF66C006E7EF6 /* UILabelExtension.swift */; };
-		94DD93CF1F9EF6F1006E7EF6 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93CE1F9EF6F1006E7EF6 /* UIImageExtension.swift */; };
-		94DD93D31F9EF7D1006E7EF6 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93D21F9EF7D1006E7EF6 /* UIApplicationExtension.swift */; };
-		94DD93D51F9EF802006E7EF6 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93D41F9EF802006E7EF6 /* UITextFieldExtension.swift */; };
-		94DD93D71F9EF8BA006E7EF6 /* NumericTypesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93D61F9EF8BA006E7EF6 /* NumericTypesExtension.swift */; };
-		94DD93DA1F9EF8F6006E7EF6 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93D91F9EF8F6006E7EF6 /* CGFloatExtension.swift */; };
-		94DD93DC1F9EF934006E7EF6 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93DB1F9EF934006E7EF6 /* CollectionExtensions.swift */; };
-		94DD93DE1F9EF9AD006E7EF6 /* TextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD93DD1F9EF9AD006E7EF6 /* TextUtils.swift */; };
-		A9C1ABCAB94E336806C797A692E52192 /* PVDSwiftAddOns-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C9080E76DADD6DB119C29306A8CC71 /* PVDSwiftAddOns-dummy.m */; };
+		9979A19CEBB18521D2395A529ECE559A /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E9B13D4D181F62FFA39969732EB78 /* CollectionExtensions.swift */; };
 		B24FF1C20563742B63CFE661921577C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B3863AAD903760C49061AA85F2A3E32C /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */; };
+		D074F27AC6A590725FCD78D37D6417D7 /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC725E5941723899BD8BAA699ACE79CF /* CommonUtils.swift */; };
+		D2151F24F61BAB6F657C0BF3A2B15FE4 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA599986A3032CCA7F168993F440AD07 /* CGFloatExtension.swift */; };
+		DB81493D538DB4C000B3B18AFBD4328F /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE5582EACB957D3E5756D9171FB3FC /* UINavigationControllerExtension.swift */; };
+		DE32323C02375909DB299B5050B337F3 /* TextUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBC90C5C98806763358CA1BDA8B77D1 /* TextUtils.swift */; };
+		F62503CA669953453061D6F1ECCA0433 /* CLLocationCoordinate2DExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75342E2EA0B3DB1B95056E8A67196F3E /* CLLocationCoordinate2DExtension.swift */; };
+		FFE08D243C9035D495B131CF64A20745 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3613A48361A33841A0367FD3079625A0 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,43 +44,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E11D2685583F5779D411DC636B2357 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11C9080E76DADD6DB119C29306A8CC71 /* PVDSwiftAddOns-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PVDSwiftAddOns-dummy.m"; sourceTree = "<group>"; };
+		0B102049F56D92CFCA0396E3F1A1C3BA /* DeviceUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		14526B4F3B5A6396364BBD39D34AFDEB /* Pods-PVDSwiftAddOns_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PVDSwiftAddOns_Tests-umbrella.h"; sourceTree = "<group>"; };
 		16D912FA65B521A363A9C3D71606A6E5 /* Pods-PVDSwiftAddOns_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PVDSwiftAddOns_Tests-resources.sh"; sourceTree = "<group>"; };
-		1EE15C0E19613801A9632631B610E849 /* Pods_PVDSwiftAddOns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVDSwiftAddOns_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE15C0E19613801A9632631B610E849 /* Pods_PVDSwiftAddOns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PVDSwiftAddOns_Tests.framework; path = "Pods-PVDSwiftAddOns_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7CC0BD92B7BECD2CB6DF2220ABE6A2 /* PVDSwiftAddOns-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-umbrella.h"; sourceTree = "<group>"; };
+		3613A48361A33841A0367FD3079625A0 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		389B1E0A2E5F9531D982B3FAFA2555A8 /* PVDSwiftAddOns-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PVDSwiftAddOns-dummy.m"; sourceTree = "<group>"; };
+		40A6973DBCABC13BC04F438A7E6DCCCF /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		43C12366177307F09B14DFD94F3DCC23 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		43E34E0C144C5FB36300BFDF7FC1CA55 /* Pods-PVDSwiftAddOns_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PVDSwiftAddOns_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57024BD4DC0E09389FBC05652931A879 /* PVDSwiftAddOns-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-umbrella.h"; sourceTree = "<group>"; };
+		4B2187963F013C5FD5EB98BADF8F128C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		661445B7ECDB3602D1F92EC3B2247D4D /* Pods-PVDSwiftAddOns_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PVDSwiftAddOns_Tests-dummy.m"; sourceTree = "<group>"; };
+		746369E51A1A734941A56AF414A615C9 /* PVDSwiftAddOns.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PVDSwiftAddOns.xcconfig; sourceTree = "<group>"; };
+		75342E2EA0B3DB1B95056E8A67196F3E /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
+		78F40630096B02764CD6DB6DC843C7A1 /* NumericTypesExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NumericTypesExtension.swift; sourceTree = "<group>"; };
 		7B8919E8FE3D5187161D66C350005E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		818B6CFBC9E7E46BC220FE8A619EEE04 /* PVDSwiftAddOns.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PVDSwiftAddOns.modulemap; sourceTree = "<group>"; };
+		81A1B49AB8824C28CCF40C7A7B12BD9C /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9467C2241F79204600E75ED9 /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
-		9467C2261F79204600E75ED9 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
-		9467C2271F79204600E75ED9 /* StringAndCharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringAndCharacterExtension.swift; sourceTree = "<group>"; };
-		9467C2281F79204600E75ED9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		9467C2291F79204600E75ED9 /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
-		9467C22A1F79204600E75ED9 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
-		9467C22B1F79204600E75ED9 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		9467C22D1F79204600E75ED9 /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
-		9467C22E1F79204600E75ED9 /* DeviceUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
-		94DD93C91F9EF486006E7EF6 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		94DD93CC1F9EF66C006E7EF6 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
-		94DD93CE1F9EF6F1006E7EF6 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		94DD93D21F9EF7D1006E7EF6 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
-		94DD93D41F9EF802006E7EF6 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		94DD93D61F9EF8BA006E7EF6 /* NumericTypesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTypesExtension.swift; sourceTree = "<group>"; };
-		94DD93D91F9EF8F6006E7EF6 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
-		94DD93DB1F9EF934006E7EF6 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
-		94DD93DD1F9EF9AD006E7EF6 /* TextUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUtils.swift; sourceTree = "<group>"; };
-		972F2977BFDF9AE8BB66B576EDB2AB54 /* PVDSwiftAddOns.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PVDSwiftAddOns.xcconfig; sourceTree = "<group>"; };
-		9932470EC1B031120A50AF71C58DC6A9 /* PVDSwiftAddOns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PVDSwiftAddOns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBC90C5C98806763358CA1BDA8B77D1 /* TextUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextUtils.swift; sourceTree = "<group>"; };
+		8EFE5582EACB957D3E5756D9171FB3FC /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958B4BC160303F0693FF90C71F513DC3 /* PVDSwiftAddOns-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-prefix.pch"; sourceTree = "<group>"; };
+		9932470EC1B031120A50AF71C58DC6A9 /* PVDSwiftAddOns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PVDSwiftAddOns.framework; path = PVDSwiftAddOns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17E9B13D4D181F62FFA39969732EB78 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
 		A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		AA599986A3032CCA7F168993F440AD07 /* CGFloatExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		AC725E5941723899BD8BAA699ACE79CF /* CommonUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		ADD4A95F0B43684E4D93DD722D40AC0C /* Pods-PVDSwiftAddOns_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PVDSwiftAddOns_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DABD39CFE9480A6F8A428AB56BF1608C /* PVDSwiftAddOns.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PVDSwiftAddOns.modulemap; sourceTree = "<group>"; };
-		DABE2DF3B1C183524E045A132B22DD6D /* Pods-PVDSwiftAddOns_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PVDSwiftAddOns_Tests.modulemap"; sourceTree = "<group>"; };
-		E1C86F607E1F2D7E5562D7C1A0FEE739 /* PVDSwiftAddOns-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-prefix.pch"; sourceTree = "<group>"; };
+		B9E9A6956A88982ECBD8BDE9A2792345 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		BB0D57280BB23AFAF22D5D21DF8BEE2B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		D90D2AB12DD8AF481E2ABDA15EF24619 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DABE2DF3B1C183524E045A132B22DD6D /* Pods-PVDSwiftAddOns_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PVDSwiftAddOns_Tests.modulemap"; sourceTree = "<group>"; };
+		F4AE8CD4838AC06C50FD2914F755B8F5 /* StringAndCharacterExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringAndCharacterExtension.swift; sourceTree = "<group>"; };
 		F6F773A5ACA0AC5E2CFBC81715DC1F7B /* Pods-PVDSwiftAddOns_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PVDSwiftAddOns_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,20 +104,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F0AE992231D60A9B7FA4A8C5C16F21 /* Development Pods */ = {
+		37C1FDFE3DE48A3AC70B1E610C9B16FB /* CoreGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				28ABCE1C4C18BBAC29F3EAB4258C46E1 /* PVDSwiftAddOns */,
+				AA599986A3032CCA7F168993F440AD07 /* CGFloatExtension.swift */,
 			);
-			name = "Development Pods";
+			name = CoreGraphics;
+			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
-		28ABCE1C4C18BBAC29F3EAB4258C46E1 /* PVDSwiftAddOns */ = {
+		5D3D506C2BEE120B068DA9242210ECD2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9467C2231F79204600E75ED9 /* Extensions */,
-				9467C22C1F79204600E75ED9 /* Utils */,
-				930755F82FD9BB37D1CD0FDF7BB68ED2 /* Support Files */,
+				37C1FDFE3DE48A3AC70B1E610C9B16FB /* CoreGraphics */,
+				B1ABDC47C9D65993328A82D66EC603E0 /* CoreLocation */,
+				FEA7BF245881F4DFFC82E6C821F2EB4A /* Foundation */,
+				9C93A9CF897EC4970A197B183DC2EDF5 /* UIKit */,
+			);
+			name = Extensions;
+			path = PVDSwiftAddOns/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		7000D4299C67ACCEDC757DDA559E6B7C /* PVDSwiftAddOns */ = {
+			isa = PBXGroup;
+			children = (
+				5D3D506C2BEE120B068DA9242210ECD2 /* Extensions */,
+				B78003353D7628A662E732F833B14678 /* Support Files */,
+				B33B7F50AEDD8CDA8ADA7487B6938F63 /* Utils */,
 			);
 			name = PVDSwiftAddOns;
 			path = ../..;
@@ -127,91 +140,62 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				09F0AE992231D60A9B7FA4A8C5C16F21 /* Development Pods */,
+				D14CE1FB4090B4EE5C6EC2F09E8C84BC /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				FC03B810BCD95331FBA842CE4D96053F /* Products */,
 				EF64705FAB83A3F78C962382538AA510 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		930755F82FD9BB37D1CD0FDF7BB68ED2 /* Support Files */ = {
+		9C93A9CF897EC4970A197B183DC2EDF5 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				01E11D2685583F5779D411DC636B2357 /* Info.plist */,
-				DABD39CFE9480A6F8A428AB56BF1608C /* PVDSwiftAddOns.modulemap */,
-				972F2977BFDF9AE8BB66B576EDB2AB54 /* PVDSwiftAddOns.xcconfig */,
-				11C9080E76DADD6DB119C29306A8CC71 /* PVDSwiftAddOns-dummy.m */,
-				E1C86F607E1F2D7E5562D7C1A0FEE739 /* PVDSwiftAddOns-prefix.pch */,
-				57024BD4DC0E09389FBC05652931A879 /* PVDSwiftAddOns-umbrella.h */,
+				B9E9A6956A88982ECBD8BDE9A2792345 /* UIApplicationExtension.swift */,
+				D90D2AB12DD8AF481E2ABDA15EF24619 /* UIColorExtension.swift */,
+				43C12366177307F09B14DFD94F3DCC23 /* UIFontExtension.swift */,
+				40A6973DBCABC13BC04F438A7E6DCCCF /* UIImageExtension.swift */,
+				AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */,
+				8EFE5582EACB957D3E5756D9171FB3FC /* UINavigationControllerExtension.swift */,
+				C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */,
+				3613A48361A33841A0367FD3079625A0 /* UIViewExtension.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PVDSwiftAddOns";
+			name = UIKit;
+			path = UIKit;
 			sourceTree = "<group>";
 		};
-		9467C2231F79204600E75ED9 /* Extensions */ = {
+		B1ABDC47C9D65993328A82D66EC603E0 /* CoreLocation */ = {
 			isa = PBXGroup;
 			children = (
-				94DD93D81F9EF8D3006E7EF6 /* CoreGraphics */,
-				94DD93D11F9EF7B0006E7EF6 /* CoreLocation */,
-				94DD93D01F9EF79F006E7EF6 /* Foundation */,
-				94DD93CB1F9EF663006E7EF6 /* UIKit */,
+				75342E2EA0B3DB1B95056E8A67196F3E /* CLLocationCoordinate2DExtension.swift */,
 			);
-			name = Extensions;
-			path = PVDSwiftAddOns/Classes/Extensions;
+			name = CoreLocation;
+			path = CoreLocation;
 			sourceTree = "<group>";
 		};
-		9467C22C1F79204600E75ED9 /* Utils */ = {
+		B33B7F50AEDD8CDA8ADA7487B6938F63 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9467C22D1F79204600E75ED9 /* CommonUtils.swift */,
-				9467C22E1F79204600E75ED9 /* DeviceUtils.swift */,
-				94DD93C91F9EF486006E7EF6 /* Operators.swift */,
-				94DD93DD1F9EF9AD006E7EF6 /* TextUtils.swift */,
+				AC725E5941723899BD8BAA699ACE79CF /* CommonUtils.swift */,
+				0B102049F56D92CFCA0396E3F1A1C3BA /* DeviceUtils.swift */,
+				BB0D57280BB23AFAF22D5D21DF8BEE2B /* Operators.swift */,
+				8CBC90C5C98806763358CA1BDA8B77D1 /* TextUtils.swift */,
 			);
 			name = Utils;
 			path = PVDSwiftAddOns/Classes/Utils;
 			sourceTree = "<group>";
 		};
-		94DD93CB1F9EF663006E7EF6 /* UIKit */ = {
+		B78003353D7628A662E732F833B14678 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9467C2281F79204600E75ED9 /* UIColorExtension.swift */,
-				9467C2291F79204600E75ED9 /* UIFontExtension.swift */,
-				9467C22A1F79204600E75ED9 /* UINavigationControllerExtension.swift */,
-				9467C22B1F79204600E75ED9 /* UIViewExtension.swift */,
-				94DD93CC1F9EF66C006E7EF6 /* UILabelExtension.swift */,
-				94DD93CE1F9EF6F1006E7EF6 /* UIImageExtension.swift */,
-				94DD93D21F9EF7D1006E7EF6 /* UIApplicationExtension.swift */,
-				94DD93D41F9EF802006E7EF6 /* UITextFieldExtension.swift */,
+				4B2187963F013C5FD5EB98BADF8F128C /* Info.plist */,
+				818B6CFBC9E7E46BC220FE8A619EEE04 /* PVDSwiftAddOns.modulemap */,
+				746369E51A1A734941A56AF414A615C9 /* PVDSwiftAddOns.xcconfig */,
+				389B1E0A2E5F9531D982B3FAFA2555A8 /* PVDSwiftAddOns-dummy.m */,
+				958B4BC160303F0693FF90C71F513DC3 /* PVDSwiftAddOns-prefix.pch */,
+				2E7CC0BD92B7BECD2CB6DF2220ABE6A2 /* PVDSwiftAddOns-umbrella.h */,
 			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		94DD93D01F9EF79F006E7EF6 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				9467C2261F79204600E75ED9 /* DateExtension.swift */,
-				9467C2271F79204600E75ED9 /* StringAndCharacterExtension.swift */,
-				94DD93D61F9EF8BA006E7EF6 /* NumericTypesExtension.swift */,
-				94DD93DB1F9EF934006E7EF6 /* CollectionExtensions.swift */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		94DD93D11F9EF7B0006E7EF6 /* CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-				9467C2241F79204600E75ED9 /* CLLocationCoordinate2DExtension.swift */,
-			);
-			path = CoreLocation;
-			sourceTree = "<group>";
-		};
-		94DD93D81F9EF8D3006E7EF6 /* CoreGraphics */ = {
-			isa = PBXGroup;
-			children = (
-				94DD93D91F9EF8F6006E7EF6 /* CGFloatExtension.swift */,
-			);
-			path = CoreGraphics;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PVDSwiftAddOns";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,6 +204,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D14CE1FB4090B4EE5C6EC2F09E8C84BC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7000D4299C67ACCEDC757DDA559E6B7C /* PVDSwiftAddOns */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -265,6 +257,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FEA7BF245881F4DFFC82E6C821F2EB4A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				A17E9B13D4D181F62FFA39969732EB78 /* CollectionExtensions.swift */,
+				81A1B49AB8824C28CCF40C7A7B12BD9C /* DateExtension.swift */,
+				78F40630096B02764CD6DB6DC843C7A1 /* NumericTypesExtension.swift */,
+				F4AE8CD4838AC06C50FD2914F755B8F5 /* StringAndCharacterExtension.swift */,
+			);
+			name = Foundation;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -291,7 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 672C5438BF1EF65BCB71A2DD34F1693E /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns" */;
 			buildPhases = (
-				7C12FF633EFAD8FCF4BE8FB2A0B50923 /* Sources */,
+				2656E17738CF33E9B0DB1C9336D9FDB9 /* Sources */,
 				B4E4E0663196635E3D11738C057FA232 /* Frameworks */,
 				5DCBC1D0C9890AA8726C9F8E3CBB398A /* Headers */,
 			);
@@ -330,11 +334,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					4475C3D900B2EC741079A714256BB39B = {
-						LastSwiftMigration = 0900;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -355,11 +354,29 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C12FF633EFAD8FCF4BE8FB2A0B50923 /* Sources */ = {
+		2656E17738CF33E9B0DB1C9336D9FDB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C1ABCAB94E336806C797A692E52192 /* PVDSwiftAddOns-dummy.m in Sources */,
+				D2151F24F61BAB6F657C0BF3A2B15FE4 /* CGFloatExtension.swift in Sources */,
+				F62503CA669953453061D6F1ECCA0433 /* CLLocationCoordinate2DExtension.swift in Sources */,
+				9979A19CEBB18521D2395A529ECE559A /* CollectionExtensions.swift in Sources */,
+				D074F27AC6A590725FCD78D37D6417D7 /* CommonUtils.swift in Sources */,
+				46E7839B97FD0AE523548C721D708B56 /* DateExtension.swift in Sources */,
+				45364F317BF8297CB15AE5469BB0CBF9 /* DeviceUtils.swift in Sources */,
+				1A8B0ECC3B14C79D88DF5D96064F5C24 /* NumericTypesExtension.swift in Sources */,
+				66DC92ABADFB6BC84C884BC1BCD2C226 /* Operators.swift in Sources */,
+				1024F4991277E1C46A118545365C0993 /* PVDSwiftAddOns-dummy.m in Sources */,
+				2387B905A6A507468F91822E644C5205 /* StringAndCharacterExtension.swift in Sources */,
+				DE32323C02375909DB299B5050B337F3 /* TextUtils.swift in Sources */,
+				38A784FCFC3BE8A2ED6DF78D0B919292 /* UIApplicationExtension.swift in Sources */,
+				294232A22B473A150792854D0D801992 /* UIColorExtension.swift in Sources */,
+				0F45B4DAFF74ADB3702EA04CF42A1AFB /* UIFontExtension.swift in Sources */,
+				358B3630DC6A1CAD31A74B06E2228EFE /* UIImageExtension.swift in Sources */,
+				B3863AAD903760C49061AA85F2A3E32C /* UILabelExtension.swift in Sources */,
+				DB81493D538DB4C000B3B18AFBD4328F /* UINavigationControllerExtension.swift in Sources */,
+				6AB5DB364FDB4A619814F17A4DAC26AF /* UITextFieldExtension.swift in Sources */,
+				FFE08D243C9035D495B131CF64A20745 /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,25 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DD93DE1F9EF9AD006E7EF6 /* TextUtils.swift in Sources */,
-				94DD93DA1F9EF8F6006E7EF6 /* CGFloatExtension.swift in Sources */,
 				42D75B7E21C99BE7931EE7C064048D25 /* Pods-PVDSwiftAddOns_Tests-dummy.m in Sources */,
-				94DD93DC1F9EF934006E7EF6 /* CollectionExtensions.swift in Sources */,
-				94DD93CD1F9EF66C006E7EF6 /* UILabelExtension.swift in Sources */,
-				9467C2311F79204600E75ED9 /* DateExtension.swift in Sources */,
-				94DD93D51F9EF802006E7EF6 /* UITextFieldExtension.swift in Sources */,
-				9467C2321F79204600E75ED9 /* StringAndCharacterExtension.swift in Sources */,
-				9467C2381F79204600E75ED9 /* DeviceUtils.swift in Sources */,
-				9467C2341F79204600E75ED9 /* UIFontExtension.swift in Sources */,
-				94DD93CA1F9EF486006E7EF6 /* Operators.swift in Sources */,
-				94DD93D71F9EF8BA006E7EF6 /* NumericTypesExtension.swift in Sources */,
-				9467C22F1F79204600E75ED9 /* CLLocationCoordinate2DExtension.swift in Sources */,
-				9467C2371F79204600E75ED9 /* CommonUtils.swift in Sources */,
-				9467C2361F79204600E75ED9 /* UIViewExtension.swift in Sources */,
-				9467C2331F79204600E75ED9 /* UIColorExtension.swift in Sources */,
-				94DD93D31F9EF7D1006E7EF6 /* UIApplicationExtension.swift in Sources */,
-				9467C2351F79204600E75ED9 /* UINavigationControllerExtension.swift in Sources */,
-				94DD93CF1F9EF6F1006E7EF6 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,9 +400,64 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F78346387E150CA49063FD0D7130E3F /* Release */ = {
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972F2977BFDF9AE8BB66B576EDB2AB54 /* PVDSwiftAddOns.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		33A633FF8CBFE11CD46E775F54D1B225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746369E51A1A734941A56AF414A615C9 /* PVDSwiftAddOns.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -417,7 +471,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PVDSwiftAddOns/PVDSwiftAddOns-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PVDSwiftAddOns/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PVDSwiftAddOns/PVDSwiftAddOns.modulemap";
 				PRODUCT_NAME = PVDSwiftAddOns;
@@ -425,7 +479,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -433,43 +487,7 @@
 			};
 			name = Release;
 		};
-		1A3880A45E737DAC396E871A1E451708 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PVDSwiftAddOns_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -518,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,100 +547,9 @@
 			};
 			name = Debug;
 		};
-		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+		6FE48E4B6A2E72391B18F1AB10BBFD8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		9AF2FB8771C6E60DD5180A6BA0C7D022 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PVDSwiftAddOns_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A444AAD1881B0CE80AEDB5F56DCF0129 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 972F2977BFDF9AE8BB66B576EDB2AB54 /* PVDSwiftAddOns.xcconfig */;
+			baseConfigurationReference = 746369E51A1A734941A56AF414A615C9 /* PVDSwiftAddOns.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -636,7 +563,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PVDSwiftAddOns/PVDSwiftAddOns-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PVDSwiftAddOns/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PVDSwiftAddOns/PVDSwiftAddOns.modulemap";
 				PRODUCT_NAME = PVDSwiftAddOns;
@@ -644,7 +571,75 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BFED18D0CD5CDB51F4298582C16BD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PVDSwiftAddOns_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9376B1611AF075F2B01B3A3B73CE02BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PVDSwiftAddOns_Tests/Pods-PVDSwiftAddOns_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PVDSwiftAddOns_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -657,8 +652,8 @@
 		1469FB1161B1577E2F56933C12EA6DFA /* Build configuration list for PBXNativeTarget "Pods-PVDSwiftAddOns_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A3880A45E737DAC396E871A1E451708 /* Debug */,
-				9AF2FB8771C6E60DD5180A6BA0C7D022 /* Release */,
+				9376B1611AF075F2B01B3A3B73CE02BE /* Debug */,
+				8BFED18D0CD5CDB51F4298582C16BD43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -666,8 +661,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
-				7B62A85C412D689EF418FA67DA770A41 /* Release */,
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -675,8 +670,8 @@
 		672C5438BF1EF65BCB71A2DD34F1693E /* Build configuration list for PBXNativeTarget "PVDSwiftAddOns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A444AAD1881B0CE80AEDB5F56DCF0129 /* Debug */,
-				0F78346387E150CA49063FD0D7130E3F /* Release */,
+				6FE48E4B6A2E72391B18F1AB10BBFD8C /* Debug */,
+				33A633FF8CBFE11CD46E775F54D1B225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
