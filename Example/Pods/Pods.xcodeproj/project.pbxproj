@@ -22,6 +22,8 @@
 		68FB94DC5A9A3ACD482CC97E92950F10 /* PVDSwiftAddOns-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7CC0BD92B7BECD2CB6DF2220ABE6A2 /* PVDSwiftAddOns-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AB5DB364FDB4A619814F17A4DAC26AF /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */; };
 		8F0785706BD00A1DAEB64ADEAEFC2396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		94D00032202443E7005B1E51 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D0003020244399005B1E51 /* UITextViewExtension.swift */; };
+		94D0003420244400005B1E51 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D0003320244400005B1E51 /* UIButtonExtension.swift */; };
 		9979A19CEBB18521D2395A529ECE559A /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E9B13D4D181F62FFA39969732EB78 /* CollectionExtensions.swift */; };
 		B24FF1C20563742B63CFE661921577C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B3863AAD903760C49061AA85F2A3E32C /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */; };
@@ -47,7 +49,7 @@
 		0B102049F56D92CFCA0396E3F1A1C3BA /* DeviceUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		14526B4F3B5A6396364BBD39D34AFDEB /* Pods-PVDSwiftAddOns_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PVDSwiftAddOns_Tests-umbrella.h"; sourceTree = "<group>"; };
 		16D912FA65B521A363A9C3D71606A6E5 /* Pods-PVDSwiftAddOns_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PVDSwiftAddOns_Tests-resources.sh"; sourceTree = "<group>"; };
-		1EE15C0E19613801A9632631B610E849 /* Pods_PVDSwiftAddOns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PVDSwiftAddOns_Tests.framework; path = "Pods-PVDSwiftAddOns_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EE15C0E19613801A9632631B610E849 /* Pods_PVDSwiftAddOns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PVDSwiftAddOns_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7CC0BD92B7BECD2CB6DF2220ABE6A2 /* PVDSwiftAddOns-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-umbrella.h"; sourceTree = "<group>"; };
 		3613A48361A33841A0367FD3079625A0 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		389B1E0A2E5F9531D982B3FAFA2555A8 /* PVDSwiftAddOns-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PVDSwiftAddOns-dummy.m"; sourceTree = "<group>"; };
@@ -61,14 +63,16 @@
 		75342E2EA0B3DB1B95056E8A67196F3E /* CLLocationCoordinate2DExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtension.swift; sourceTree = "<group>"; };
 		78F40630096B02764CD6DB6DC843C7A1 /* NumericTypesExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NumericTypesExtension.swift; sourceTree = "<group>"; };
 		7B8919E8FE3D5187161D66C350005E8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		818B6CFBC9E7E46BC220FE8A619EEE04 /* PVDSwiftAddOns.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PVDSwiftAddOns.modulemap; sourceTree = "<group>"; };
+		818B6CFBC9E7E46BC220FE8A619EEE04 /* PVDSwiftAddOns.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PVDSwiftAddOns.modulemap; sourceTree = "<group>"; };
 		81A1B49AB8824C28CCF40C7A7B12BD9C /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8CBC90C5C98806763358CA1BDA8B77D1 /* TextUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextUtils.swift; sourceTree = "<group>"; };
 		8EFE5582EACB957D3E5756D9171FB3FC /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D0003020244399005B1E51 /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		94D0003320244400005B1E51 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		958B4BC160303F0693FF90C71F513DC3 /* PVDSwiftAddOns-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PVDSwiftAddOns-prefix.pch"; sourceTree = "<group>"; };
-		9932470EC1B031120A50AF71C58DC6A9 /* PVDSwiftAddOns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PVDSwiftAddOns.framework; path = PVDSwiftAddOns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9932470EC1B031120A50AF71C58DC6A9 /* PVDSwiftAddOns.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PVDSwiftAddOns.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17E9B13D4D181F62FFA39969732EB78 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
 		A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PVDSwiftAddOns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
@@ -79,7 +83,7 @@
 		BB0D57280BB23AFAF22D5D21DF8BEE2B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		D90D2AB12DD8AF481E2ABDA15EF24619 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		DABE2DF3B1C183524E045A132B22DD6D /* Pods-PVDSwiftAddOns_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PVDSwiftAddOns_Tests.modulemap"; sourceTree = "<group>"; };
+		DABE2DF3B1C183524E045A132B22DD6D /* Pods-PVDSwiftAddOns_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PVDSwiftAddOns_Tests.modulemap"; sourceTree = "<group>"; };
 		F4AE8CD4838AC06C50FD2914F755B8F5 /* StringAndCharacterExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringAndCharacterExtension.swift; sourceTree = "<group>"; };
 		F6F773A5ACA0AC5E2CFBC81715DC1F7B /* Pods-PVDSwiftAddOns_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PVDSwiftAddOns_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +113,6 @@
 			children = (
 				AA599986A3032CCA7F168993F440AD07 /* CGFloatExtension.swift */,
 			);
-			name = CoreGraphics;
 			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
@@ -157,9 +160,10 @@
 				AA14512B39E9611E30D7EEF5495F8195 /* UILabelExtension.swift */,
 				8EFE5582EACB957D3E5756D9171FB3FC /* UINavigationControllerExtension.swift */,
 				C4AC20C5045EF1A6E6EAB3F56638B823 /* UITextFieldExtension.swift */,
+				94D0003020244399005B1E51 /* UITextViewExtension.swift */,
 				3613A48361A33841A0367FD3079625A0 /* UIViewExtension.swift */,
+				94D0003320244400005B1E51 /* UIButtonExtension.swift */,
 			);
-			name = UIKit;
 			path = UIKit;
 			sourceTree = "<group>";
 		};
@@ -168,7 +172,6 @@
 			children = (
 				75342E2EA0B3DB1B95056E8A67196F3E /* CLLocationCoordinate2DExtension.swift */,
 			);
-			name = CoreLocation;
 			path = CoreLocation;
 			sourceTree = "<group>";
 		};
@@ -265,7 +268,6 @@
 				78F40630096B02764CD6DB6DC843C7A1 /* NumericTypesExtension.swift */,
 				F4AE8CD4838AC06C50FD2914F755B8F5 /* StringAndCharacterExtension.swift */,
 			);
-			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
@@ -334,6 +336,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					4475C3D900B2EC741079A714256BB39B = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -369,6 +376,7 @@
 				1024F4991277E1C46A118545365C0993 /* PVDSwiftAddOns-dummy.m in Sources */,
 				2387B905A6A507468F91822E644C5205 /* StringAndCharacterExtension.swift in Sources */,
 				DE32323C02375909DB299B5050B337F3 /* TextUtils.swift in Sources */,
+				94D0003420244400005B1E51 /* UIButtonExtension.swift in Sources */,
 				38A784FCFC3BE8A2ED6DF78D0B919292 /* UIApplicationExtension.swift in Sources */,
 				294232A22B473A150792854D0D801992 /* UIColorExtension.swift in Sources */,
 				0F45B4DAFF74ADB3702EA04CF42A1AFB /* UIFontExtension.swift in Sources */,
@@ -377,6 +385,7 @@
 				DB81493D538DB4C000B3B18AFBD4328F /* UINavigationControllerExtension.swift in Sources */,
 				6AB5DB364FDB4A619814F17A4DAC26AF /* UITextFieldExtension.swift in Sources */,
 				FFE08D243C9035D495B131CF64A20745 /* UIViewExtension.swift in Sources */,
+				94D00032202443E7005B1E51 /* UITextViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 856CB20C5D661DBD9AF9EC75554F46CB /* Pods-PVDSwiftAddOns_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -605,6 +615,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,6 +627,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9B48F5548FF89FA67A169261F0D142B /* Pods-PVDSwiftAddOns_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,6 +652,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
