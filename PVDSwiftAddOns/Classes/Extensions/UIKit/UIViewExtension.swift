@@ -8,14 +8,38 @@
 import Foundation
 
 /**
+ */
+public func == (lhs: HoverStyle, rhs: HoverStyle) -> Bool {
+    return lhs.toInt() == rhs.toInt()
+}
+
+/**
  *
  *
  */
-public enum HoverStyle {
+public enum HoverStyle: Hashable {
+    
+    ////
+    public var hashValue: Int {
+        return self.toInt()
+    }
     
     case push
     case shiftRight
     case transform(() -> Void)
+    
+    /**
+     */
+    func toInt() -> Int {
+        switch self {
+        case .push:
+            return 0
+        case .shiftRight:
+            return 1
+        case .transform(_):
+            return 2
+        }
+    }
     
     /**
      */
