@@ -11,15 +11,15 @@ import Foundation
 open class Device {
     
     ///
-    open static var id: String {
+    public static var id: String {
         return UIDevice.current.identifierForVendor!.uuidString
     }
     
-    open static var current: DeviceModel {
+    public static var current: DeviceModel {
         return device(by: UIScreen.main.nativeBounds.height)
     }
     
-    open static var simulating: DeviceModel {
+    public static var simulating: DeviceModel {
         return device(by: UIScreen.main.bounds.height * UIScreen.main.scale)
     }
     
